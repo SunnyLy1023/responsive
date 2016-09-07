@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Sunny旅行社</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="header">
+		<div class="header_nav">
+			<h1 class="logo">旅行社</h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="information.html"><span class="xs-hidden">旅游</span>资讯</a></li>
+					<li class="active"><a href="ticket.html"><span class="xs-hidden">机票</span>订购</a></li>
+					<li class="xs-hidden"><a href="scenery.html">风景欣赏</a></li>
+					<li><a href="about.html">关于<span class="xs-hidden">我们</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="headline">
+		<img src="img/headline.jpg" alt="">
+		<hgroup>
+			<h2>票务订购</h2>
+			<h3>各种飞机票、火车票、汽车票和轮渡票的订购服务</h3>	
+		</hgroup>
+	</div>
+	<div id="container">
+		<div class="list ticket">
+			<form action="###">
+				<h2>机票预定</h2>
+				<fieldset class="type">
+					<p>航程类型 <mark>单程</mark> 往返</p>
+				</fieldset>
+				<fieldset class="form left">
+					<p>
+						<label for="from_city">出发城市</label>
+						<input type="text" name="from_city" id="from_city" placeholder="城市名">
+					</p>
+					<p>
+						<label for="to_city">返回城市</label>
+						<input type="text" name="to_city" id="to_city" placeholder="城市名">
+					</p>
+				</fieldset>
+				<fieldset class="form right">
+					<p>
+						<label for="from_date">出发时间</label>
+						<input type="text" name="from_date" id="from_date" placeholder="时间/日期">
+					</p>
+					<p>
+						<label for="to_date">返回时间</label>
+						<input type="text" name="to_date" id="to_date" placeholder="时间/日期">
+					</p>
+				</fieldset>
+				<fieldset class="form button">
+					<p>
+						<button type="submit" class="submit">订票</button>
+					</p>
+				</fieldset>
+			</form>
+			<div class="new">
+				<h2>最新机票</h2>
+				<ul>
+					<li>热门城市：</li>
+					<li>北京</li>
+					<li>上海</li>
+					<li>广州</li>
+					<li>深圳</li>
+					<li>重庆</li>
+					<li>成都</li>
+					<li>杭州</li>
+					<li>南京</li>
+				</ul>
+				<table>
+					<thead>
+						<tr>
+							<th>路线</th>
+							<th>日期</th>
+							<th>价格</th>
+							<th class="xs-hidden">税费</th>
+							<th class="xs-hidden">餐食</th>
+							<th>航班</th>
+							<th>预定</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>北京-成都</td>
+							<td>10-15</td>
+							<td class="price">¥745</td>
+							<td class="xs-hidden">¥50</td>
+							<td class="xs-hidden">有</td>
+							<td>春秋航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-上海</td>
+							<td>10-15</td>
+							<td class="price">¥479</td>
+							<td class="xs-hidden">¥45</td>
+							<td class="xs-hidden">无</td>
+							<td>南方航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-深圳</td>
+							<td>10-15</td>
+							<td class="price">¥561</td>
+							<td class="xs-hidden">¥52</td>
+							<td class="xs-hidden">有</td>
+							<td>西部航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-杭州</td>
+							<td>10-15</td>
+							<td class="price">¥378</td>
+							<td class="xs-hidden">¥36</td>
+							<td class="xs-hidden">无</td>
+							<td>天津航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-广州</td>
+							<td>10-15</td>
+							<td class="price">¥612</td>
+							<td class="xs-hidden">¥44</td>
+							<td class="xs-hidden">有</td>
+							<td>首都航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-重庆</td>
+							<td>10-15</td>
+							<td class="price">¥428</td>
+							<td class="xs-hidden">¥62</td>
+							<td class="xs-hidden">有</td>
+							<td>东方航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-昆明</td>
+							<td>10-15</td>
+							<td class="price">¥509</td>
+							<td class="xs-hidden">¥35</td>
+							<td class="xs-hidden">无</td>
+							<td>厦门航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-厦门</td>
+							<td>10-15</td>
+							<td class="price">¥893</td>
+							<td class="xs-hidden">¥73</td>
+							<td class="xs-hidden">有</td>
+							<td>深圳航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+						<tr>
+							<td>北京-长沙</td>
+							<td>10-15</td>
+							<td class="price">¥663</td>
+							<td class="xs-hidden">¥46</td>
+							<td class="xs-hidden">无</td>
+							<td>四川航空</td>
+							<td><a href="###" class="reserve">预定</a></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<td colspan="7"><a href="###" class="load_more2">加载更多航班...</a></td>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+		<aside class="sidebar">
+			<div class="recommend">
+				<h2>景点推荐</h2>
+				<div class="tag">
+					<ul>
+						<li><a href="###">曼谷(12)</a></li>
+						<li><a href="###">东京(5)</a></li>
+						<li><a href="###">西双版纳(8)</a></li>
+						<li><a href="###">漓江(16)</a></li>
+						<li><a href="###">呼伦贝尔(4)</a></li>
+						<li><a href="###">首尔(9)</a></li>
+						<li><a href="###">巴厘岛(15)</a></li>
+						<li><a href="###">土耳其(22)</a></li>
+						<li><a href="###">夏威夷(5)</a></li>
+						<li><a href="###">巴厘岛(11)</a></li>
+						<li><a href="###">毛里求斯(7)</a></li>
+						<li><a href="###">吉普岛(4)</a></li>
+						<li><a href="###">希腊(18)</a></li>
+						<li><a href="###">法瑞意(8)</a></li>
+						<li><a href="###">马尔代夫(9)</a></li>
+						<li><a href="###">新西兰(16)</a></li>
+						<li><a href="###">埃及(11)</a></li>
+						<li><a href="###">迪拜(14)</a></li>
+						<li><a href="###">斯里兰卡(7)</a></li>
+						<li><a href="###">麦哈顿(3)</a></li>
+						<li><a href="###">大阪(15)</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hot">
+				<h2>热卖旅游</h2>
+				<div class="figure">
+					<figure>
+						<img src="img/hot1.jpg" alt="曼谷-芭提雅6日游">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot2.jpg" alt="马尔代夫双鱼6日游">
+						<figcaption>马尔代夫双鱼6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot3.jpg" alt="海南双飞5日游">
+						<figcaption>海南双飞5日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot4.jpg" alt="富山大阪东京8日游">
+						<figcaption>富山大阪东京8日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot5.jpg" alt="法瑞意德12日游">
+						<figcaption>法瑞意德12日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot6.jpg" alt="巴厘岛6日半游">
+						<figcaption>巴厘岛6日半游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot7.jpg" alt="塞舌尔迪拜9日游">
+						<figcaption>塞舌尔迪拜9日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/hot8.jpg" alt="花样土耳其10日游">
+						<figcaption>花样土耳其10日游</figcaption>
+					</figure>	
+				</div>
+			</div>
+			<div class="treasure">
+				<h2>旅游百宝箱</h2>
+				<div class="box">
+					<a href="###" class="trea1">天气预报</a>
+					<a href="###" class="trea2">火车票查询</a>
+					<a href="###" class="trea3">航空查询</a>
+					<a href="###" class="trea4">地铁线路查询</a>
+				</div>
+			</div>
+		</aside>
+	</div>
+	<footer id="footer">
+		<div class="top sm-hidden">
+			<div class="left block">
+				<h1>合作伙伴</h1>
+				<hr>
+				<ul>
+					<li><a href="#">途牛旅游网</a></li>
+					<li><a href="#">驴妈妈旅游网</a></li>
+					<li><a href="#">携程旅游</a></li>
+					<li><a href="#">中国青年旅行社</a></li>
+				</ul>
+			</div>
+			<div class="center block">
+				<h1>旅游 FAQ</h1>
+				<hr>
+				<ul>
+					<li><a href="#">旅游合同签订方式</a></li>
+					<li><a href="#">儿童价是基于什么制定的</a></li>
+					<li><a href="#">旅游的线路品质怎么界定的</a></li>
+					<li><a href="#">单房差是什么</a></li>
+					<li><a href="#">旅游保险有那些种类</a></li>
+				</ul>
+			</div>
+			<div class="right block">
+				<h1>联系方式</h1>
+				<hr>
+				<ul>
+					<li><a href="#">微博：weibo.com/ycku</a></li>
+					<li><a href="#">邮件：ycku@ycku.com</a></li>
+					<li><a href="#">地址：江苏盐城无名路 123 号</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div class="version xv-version">
+			客户端 | 触屏版 | 电脑版
+		</div>
+		<div class="banquan">
+			Copyright © Sunny旅行社 | 苏ICP备120110119号<span class="xb-hidden"> | 旅行社经营许可证： L-YC-BK12345</span>
+		</div>
+	</footer>
+
+	<!-- <div id="tour">
+		<h1>热门旅游</h1>
+		<p>国内旅游、国外旅游、自助旅游、自驾旅游、油轮签证、主题旅游等各种最新热门旅游推荐</p>
+		<figure>
+			<img src="img/tour1.jpg" />
+			<figcaption><strong><曼谷-芭提雅6日游></strong>包团特惠,超丰富景点，升级1晚国五，无自费，更赠送600元/成人自费券</figcaption>
+			<span class="price">¥ <strong>2864</strong> 起</span>
+			<span class="sat">满意度 70%</span>
+			<div class="line">
+				<span>国内长线</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour2.jpg" />
+			<figcaption><strong><马尔代夫双鱼岛 Olhuveli4晚6日自助游></strong>上海出发，机+酒 包含:早晚餐+快艇</figcaption>
+			<span class="price">¥ <strong>8039</strong> 起</span>
+			<span class="sat">满意度 97%</span>
+			<div class="line">
+				<span>出境长线</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour3.jpg" />
+			<figcaption><strong><海南双飞5日游></strong>含盐城接送，全程挂牌四星酒店，一价全含，零自费“自费项目”免费送</figcaption>
+			<span class="price">¥ <strong>2709 </strong> 起</span>
+			<span class="sat">满意度 90%</span>
+			<div class="line">
+				<span>自助旅游</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour4.jpg" />
+			<figcaption><strong><富山-大阪-东京8日游></strong>暑期亲子，2天自由，无导游安排自费项目，全程不强迫购物</figcaption>
+			<span class="price">¥ <strong>9499</strong> 起</span>
+			<span class="sat">满意度 97%</span>
+			<div class="line">
+				<span>自助旅游</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour5.jpg" />
+			<figcaption><strong><法瑞意德 12 日游></strong>4至5星，金色列车，少女峰，部分THE MALL</figcaption>
+			<span class="price">¥ <strong>9199 </strong> 起</span>
+			<span class="sat">满意度 97%</span>
+			<div class="line">
+				<span>国内短线</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour6.jpg" />
+			<figcaption><strong><巴厘岛6日半自助游></strong>蓝梦出海，独栋别墅，悦榕庄下午茶，纯玩</figcaption>
+			<span class="price">¥ <strong>6488</strong> 起</span>
+			<span class="sat">满意度 95%</span>
+			<div class="line">
+				<span>出境长线</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour7.jpg" />
+			<figcaption><strong><塞舌尔迪拜 9 日自助游></strong> 一游两国，4晚塞舌尔，2晚迪拜，香港EK往返</figcaption>
+			<span class="price">¥ <strong>9669 </strong> 起</span>
+			<span class="sat">满意度 100%</span>
+			<div class="line">
+				<span>游轮观光</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour8.jpg" />
+			<figcaption><strong><花样姐姐土耳其 9 日或 10 日游></strong>最高立减 3000！中餐六菜一汤+土耳其当地美食满足您挑剔味蕾</figcaption>
+			<span class="price">¥ <strong>9999 </strong> 起</span>
+			<span class="sat">满意度 93%</span>
+			<div class="line">
+				<span>出境长线</span>
+			</div>
+		</figure>
+		<figure>
+			<img src="img/tour9.jpg" />
+			<figcaption><strong><大阪-京都-箱根双飞 6 日游></strong>盐城直飞，不走回头路，境外无自费，超值之旅</figcaption>
+			<span class="price">¥ <strong>5284</strong> 起</span>
+			<span class="sat">满意度 100%</span>
+			<div class="line">
+				<span>国内短线</span>
+			</div>
+		</figure>	
+	</div>
+	 -->
+</body>
+</html>
